@@ -1,0 +1,36 @@
+/* Estilos generales del cuerpo */
+body {
+    /* Fuente más limpia y moderna */
+    font-family: Arial, sans-serif;
+    
+    /* Fondo de color gris claro */
+    background-color: #f0f0f0;
+    
+    /* Color de texto principal */
+    color: #333;
+    
+    /* Asegura que ocupe toda la altura de la pantalla */
+    min-height: 100vh;
+    
+    /* Centra el contenido vertical y horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Quita márgenes por defecto */
+    margin: 0;
+}
+
+/* Estilos para el encabezado principal (h1) */
+h1 {
+    color: #007bff; /* Un color azul */
+    font-size: 3rem; /* Tamaño de fuente grande */
+    margin-bottom: 0.5rem; /* Pequeño margen inferior */
+}
+
+/* Estilos para el párrafo (p) */
+p {
+    font-size: 1.25rem; /* Tamaño de fuente legible */
+    color: #555; /* Un gris un poco más claro */
+}
